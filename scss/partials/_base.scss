@@ -55,15 +55,18 @@ html {
     }
 }
 
-.points {
+.point {
     align-items: center;
     justify-content: center;
     padding: 3vw;
     background-color: rgba(0,0,0,.3);
     box-shadow: 3px 2px rgba(0,0,0,.2);
-    font-size: 80px;
+    font-size: 20px;
     color: rgba(255,255,255,0.5);
-    text-shadow: 3px 2px rgba(255,255,255,0.8);
+    text-shadow: 2px 2px rgba(255,255,255,0.8);
+    span {
+        font-size: 60px;
+    }
 }
 
 .title {
@@ -73,7 +76,7 @@ html {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .title {
         font-size: 30px;
     }

@@ -2,9 +2,12 @@ document.addEventListener("DOMContentLoaded", function() {
     
  var theGame = document.querySelector(".the-game");
  var counter = 0;
+ var missedCount = 0;
 
     timer = setInterval(function () {
         var points = document.querySelector(".points");
+        var missed = document.querySelector(".missed");
+        var title = document.querySelector(".title");
         var zombie = document.createElement("div");
         
         zombie.classList.add("zombie");
@@ -28,6 +31,12 @@ document.addEventListener("DOMContentLoaded", function() {
  
         zombie.addEventListener("animationend", function(event) {
             this.remove();
+            missedCount++;
+            missed.innerText = missedCount;
+            if (missedCount === 10) {
+                title.innerText = "Game Over";
+                clearInterval(timer);
+            }
         });
 
         zombie.addEventListener("click", function (e) {
