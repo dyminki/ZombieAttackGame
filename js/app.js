@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
         
         zombie.classList.add("zombie");
 
-      
+       
         var randomNumber = Math.round(Math.random() * (35 - 1) + 1);
-        var randomSpead = Math.round(Math.random() * (8 - 3) + 3);
+        var randomSpead = Math.round(Math.random() * (4 - 1) + 1);
 
         zombie.style.bottom = randomNumber + "%";
         zombie.style.zIndex = 35 - randomNumber;
