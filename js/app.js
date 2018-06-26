@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
+
         zombie.addEventListener("click", function (e) {
-            
             zombie.classList.remove("zombie");
             counter++;
             points.innerText = counter;
