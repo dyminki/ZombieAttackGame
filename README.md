@@ -1,14 +1,14 @@
 # The Zobie Attack Game
-
 My first created simple game. 
 
-### Build with
+# Technologies used
 - HTML
 - SASS
-- JAVASCRIPT
+- JavaScript
 
 [Live DEMO](https://dyminki.github.io/ZombieAttackGame/)
 
-### Screenshoot
+# Screenshoot
+
 ![Image](https://github.com/dyminki/ZombieAttactGame/blob/master/zombie.jpg)
 #
