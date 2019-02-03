@@ -1,13 +1,13 @@
 {
-  "name": "1_sass_instalacja",
+  "name": "ZombieAttackGame",
   "version": "1.0.0",
-  "description": "<img alt=\"Logo\" src=\"http://coderslab.pl/svg/logo-coderslab.svg\" width=\"400\">",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/gulp watch"
   },
-  "author": "",
+  "author": "dyminki",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
